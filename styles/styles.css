@@ -30,3 +30,28 @@ body {
     padding: 0 40px;
 }
 
+.social-media-icons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 30px;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-media-icons a:hover {
+    transform: scale(1.1);
+}
+
+.tech-stack img {
+    transition: transform 0.3s ease;
+}
+.tech-stack img:hover {
+    transform: scale(1.1);
+}
